@@ -316,6 +316,8 @@
   <script id="poki-sdk-setup"
     type="text/javascript">PokiSDK.gameLoadingStart(); var data = {}, isLoadFinished = !1; Progress.addListener(function (i) { data.percentageDone = i / 100, isLoadFinished || PokiSDK.gameLoadingProgress(data), 100 != i || isLoadFinished || (PokiSDK.gameLoadingFinished(), isLoadFinished = !0) }), Module.onRuntimeInitialized = function () { PokiSDK.init().then(() => { Module.PokiSDK_isAdBlock = 0, Module.runApp("canvas", extra_params) }).catch(() => { Module.PokiSDK_isAdBlock = 1, Module.runApp("canvas", extra_params) }) }</script>
   <script type="text/javascript" src="GameAnalytics.js"></script>
+  <script src="js/analytics_ubg_v1_4.js"></script>
+  <script src="js/ubg235_client_v1_1.js"></script>
 </body>
 
 </html>
